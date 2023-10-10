@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Judson:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2b2726;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Chonburi', serif;
+    padding: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #7dad93;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.box-advice {
+    font-family: 'Judson', serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+    color: #bacca4;
+}
+
+#btn {
+    font-family: 'Judson', serif;
+    text-align: center;
+    margin: 20px;
+    width: 130px;
+    height: 40px;
+    border: 0;
+    font-size: 20px;
+    background-color: #7dad93;
+    color: rgb(195, 207, 180);
+    border-radius: 5px;
+}
